@@ -53,7 +53,7 @@
 
 - [GitHubProjects](https://github.com/users/kpetrauskas92/projects/8)
 
-  - ![Image1]()
+  - ![Project kanban](assets/images/images-README.md/README.md-project.jpg)
 
 
 ### [UX and UI Design](#uxui-design)
