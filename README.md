@@ -3,7 +3,6 @@
 
 ![nodes4lifeyo](assets/images/images-README.md/nodemas.png)
 
-
 ## Description
 
 <p align="center">
@@ -16,14 +15,11 @@
 =======
 # Description
 
-
 # Credits
-
 
 <p align="center">
   <strong><a href="https://teman67.github.io/team9-hackathon-december">Click Here</a></strong> to see the deployed website.
 </p>
-
 
 ## Table of Contents
 
@@ -55,20 +51,17 @@
 
   - ![Project kanban](assets/images/images-README.md/README.md-project.jpg)
 
-
 ### [UX and UI Design](#uxui-design)
 
-  - [UX](#ux)
+- [UX](#ux)
 
-    - Wireframes
+  - Wireframes
 
-      - ![wireframe-draft1](assets/images/images-README.md/wireframe-draft1.png)
-      - ![wireframe-draft2](assets/images/images-README.md/wireframe-draft2.png)
+    - ![wireframe-draft1](assets/images/images-README.md/wireframe-draft1.png)
+    - ![wireframe-draft2](assets/images/images-README.md/wireframe-draft2.png)
 
-
-  - [UI](#ui)
-    - ![Image1]()
-
+- [UI](#ui)
+    [video](/workspace/team9-hackathon-december/assets/images/images-README.md/xmas-hackathon-2023.mp4)
 
 ## Getting Started
 
@@ -106,16 +99,11 @@ Before you begin, make sure you have the following installed:
 - [JQuery](https://jquery.com/): Enhances the interactivity and dynamic features.
 - [Fontawesome](https://fontawesome.com/): Provides a collection of scalable vector icons.
 
-
-
-
-
 ## [Credits](#credits)
 
 ### The North Pole Nodes
-    
-![Team Logo](assets/images/images-README.md/team-nodes.jpg)
 
+![Team Logo](assets/images/images-README.md/team-nodes.jpg)
 
 &#x2744; Amirhossein
 

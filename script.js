@@ -1,3 +1,15 @@
+import { createServer } from 'node:http';
+
+const server = createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World!\n');
+});
+
+// Starts the server and logs a message when it’s running
+server.listen(3000, '127.0.0.1', () => {
+  console.log('Server is running on http://127.0.0.1:3000');
+});
+
 function randomSanta() {
   const card = document.getElementById('card');
   const santaImage = document.getElementById('cardCover');
