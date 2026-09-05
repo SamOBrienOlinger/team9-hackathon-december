@@ -1,116 +1,58 @@
+# The North Pole Nodes
 
-# The Merry Hackmas Card Creator
+A festive hackathon project about Santa traditions around the world.
 
-![nodes4lifeyo](assets/images/images-README.md/nodemas.png)
+**HTML · CSS · JavaScript**
 
-## Description
+[Original team demo](https://kpetrauskas92.github.io/team9-hackathon-december/) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Checks](#checks-and-review) · [Credits](#credits-and-reuse)
 
-<p align="center">
-  The Merry Hackmas Card Creator is a project that allows users to generate personalized Christmas cards with customizable features, including the recipients name and choosing a variety of images and audio.
-</P>
+## What you can explore
 
-<p align="center">
-  <img src="assets/images/images-santa/santa-gifts.jpg" alt="Santa with Gifts">
-</p>
-=======
-# Description
+- A themed browser interface.
+- Santa imagery and a reveal-card interaction.
+- The original team project record.
 
-# Credits
+> **Project notes:** This fork contains a script mixing Node.js server code with browser DOM access. That existing runtime mismatch needs resolving for the interaction to work reliably. The original team demo is maintained separately; the package test script is a placeholder.
 
-<p align="center">
-  <strong><a href="https://teman67.github.io/team9-hackathon-december">Click Here</a></strong> to see the deployed website.
-</p>
+## Getting started
 
-## Table of Contents
+Requires a browser and a local HTTP server. Python 3 provides one without installing application packages.
 
-- **[Features](#features)**
-- **[Agile Development and User Stories](#agile-development-and-user-stories)**
-- **[UX and UI Design](#uxui-design)**
-  - [UX](#ux)
-  - [UI](#ui)
-- **[Getting Started](#getting-started)**
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- **[Usage](#usage)**
-  - [Customization](#customization)
-- **[Deployment](#deployment)**
-- **[Testing](#testing)**
-- **[Technologies Used](#technologies-used)**
-- **[Credits](#credits)**
-- **[License](#license)**
+```bash
+git clone https://github.com/SamOBrienOlinger/team9-hackathon-december.git
+cd team9-hackathon-december
+python3 -m http.server 8000 --bind 127.0.0.1
+```
 
-## [Features](#features)
+Open [localhost:8000](http://localhost:8000). Serve the repository over HTTP so module imports, relative assets and page links resolve correctly.
 
-- **Name Customization:** Users can personalize their Christmas card by adding the recipient's name.
-- **Image Selection:** Choose from a variety of festive images to accompany the card.
-- **Audio Options:** Add holiday tunes or personalized messages with audio customization.
+## Repository guide
 
-### [Agile Development and User Stories](#agile-development-and-user-stories)
+| Path | Purpose |
+| --- | --- |
+| [index.html](index.html) | Primary browser entry point |
+| [assets/](assets/) | Project styles, scripts, data and imagery |
+| [script.js](script.js) | Page interaction and state rendering |
+| [package.json](package.json) | Package dependencies and available commands |
 
-- [GitHubProjects](https://github.com/users/kpetrauskas92/projects/8)
+## Checks and review
 
-  - ![Project kanban](assets/images/images-README.md/README.md-project.jpg)
+No automated application test command is configured in this snapshot.
 
-### [UX and UI Design](#uxui-design)
+For a manual review, follow the main user journey, check keyboard navigation and narrow-screen layouts, and inspect the browser console for missing assets or failed requests.
 
-- [UX](#ux)
+## Credits and reuse
 
-  - Wireframes
+Forked from [kpetrauskas92/team9-hackathon-december](https://github.com/kpetrauskas92/team9-hackathon-december). Original authorship and contributor credits remain with that project.
 
-    - ![wireframe-draft1](assets/images/images-README.md/wireframe-draft1.png)
-    - ![wireframe-draft2](assets/images/images-README.md/wireframe-draft2.png)
+Design decisions, original feature notes, historical testing evidence and detailed acknowledgements remain available in the preserved project record:
 
-- [UI](#ui)
-    [video](/workspace/team9-hackathon-december/assets/images/images-README.md/xmas-hackathon-2023.mp4)
+- [README.md · original project record](https://github.com/SamOBrienOlinger/team9-hackathon-december/blob/3a39abe8fdd33c01ce6a14b03eb92086e7f681c3/README.md)
 
-## Getting Started
+No repository-level licence file is present in this snapshot. This README does not grant additional reuse permissions. Check with the relevant rights holders before reusing code, written content or assets.
 
-### Prerequisites
+## Support
 
-Before you begin, make sure you have the following installed:
+Repository maintained in [Sam O’Brien-Olinger’s GitHub account](https://github.com/SamOBrienOlinger). Use the [repository’s pull requests](https://github.com/SamOBrienOlinger/team9-hackathon-december/pulls) to propose a documented change, or follow the upstream project’s contribution process.
 
-- [Node.js](https://nodejs.org/): The project is built using Node.js.
-- [npm](https://www.npmjs.com/): The Node.js package manager, used to install project dependencies.
-- [Web browser](https://www.google.com/chrome/): A modern web browser to view and interact with the Christmas card.
-
-### Installation
-
-1. **Clone the repository to your local machine:**
-
-    ```bash
-    git clone https://github.com/your-username/team9-hackathon-december.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd team9-hackathon-december
-    ```
-
-3. **Install project dependencies using npm:**
-
-    ```bash
-    npm install
-    ```
-
-## Technologies Used
-
-- [Bootstrap](https://getbootstrap.com/): Used for styling and layout.
-- [JQuery](https://jquery.com/): Enhances the interactivity and dynamic features.
-- [Fontawesome](https://fontawesome.com/): Provides a collection of scalable vector icons.
-
-## [Credits](#credits)
-
-### The North Pole Nodes
-
-![Team Logo](assets/images/images-README.md/team-nodes.jpg)
-
-&#x2744; Amirhossein
-
-&#x2744; Armando
-
-&#x2744; Karolis
-
-&#x2744; Sam
-
-&#x2744; Taher
+[Back to top](#the-north-pole-nodes)
